@@ -26,7 +26,7 @@ int main()
 	bool pos=true;
 	while(fscanf_s(fp_read,"%c",&readchar,sizeof(char))!=EOF)
 	{
-		if(((readchar>='a')&&(readchar<='z'))||((readchar>='A')&&(readchar<='Z'))||((readchar>='0')&&(readchar<='9')))
+		if(((readchar>='a')&&(readchar<='f'))||((readchar>='A')&&(readchar<='F'))||((readchar>='0')&&(readchar<='9')))
 		{
 			if(firsttime==true&&pos==true)
 			{
